@@ -14,7 +14,7 @@ function Botpage(){
 
     return(
     <div>
-        <h1>The Botpage</h1>
+        
         <BotBarracks key={bots.id} bots={bots} />
     </div>
     )
