@@ -12,3 +12,38 @@ code {
     monospace;
 }
 
+
+#mybotarmy{
+  height: 25em;
+  width: 100%;
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  position: fixed;
+  z-index: 100;
+}
+#mybotarmy::-webkit-scrollbar{appearance: none;}
+
+.card-container{
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: row;
+ justify-content: space-evenly  ;
+ position: relative;
+ top: 13em;
+ overflow-y: scroll;
+ 
+}
+
+.card-container::-webkit-scrollbar{appearance: none;}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  
+
+}
+
+.recruit{
+  
+}
