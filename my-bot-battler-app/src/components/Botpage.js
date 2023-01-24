@@ -6,7 +6,7 @@ function Botpage() {
   const [bots, setBots] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/bots")
+    fetch("https://bot-battlerdb.vercel.app/bots")
       .then((response) => response.json())
       .then((bots) => setBots(bots));
   }, []);
